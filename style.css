@@ -30,14 +30,20 @@ header{
     align-items: center;
 }
 
+header h2 {
+    display: flex;
+    align-items: center;
+}
+
 header .logo{
     position: relative; 
-    color: #FFFFFF;
+    align-self: center;
+    color: #0000FF;
     font-size: 30px;
     text-decoration: none;
-    text-transform: uppercase;
-    font-weight: 800;
+    font-weight: 600;
     letter-spacing: 1px;
+    margin: 5px;
 
 }
 
@@ -158,4 +164,8 @@ about page */
 
 .link:visited{
     color: #FFFFFF;
+}
+
+#light-blue {
+    color: #1fc2e1; 
 }
